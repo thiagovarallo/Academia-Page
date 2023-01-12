@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100vw;
+    height: 95vh;
+    background: url(img/pexels-victor-freitas-841130.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.884);
+    
+}
+#header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 5rem;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#name {
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+.textandinput {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textandinput h2 {
+    margin-top: 7rem;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 90px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(230, 190, 196);
+    margin-bottom: 6rem;
+}
+.textandinput input {
+    width: 15%;
+    height: 7vh;
+    font-size: 17px;
+    background-color: #F9EF23;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+    border: none;
+    transition: 1s;
+}
+.textandinput input:hover {
+    transition: 2s;
+    border-radius: 15px;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#sobre {
+    width: 100vw;
+    min-height: 80vh;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 3rem 5rem;
+}
+.text-sobre {
+    width: 30%;
+    height: 70%;
+    margin-right: 20%;
+}
+.text-sobre h2 {
+    color: #F9EF23;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 51px;
+}
+.text-sobre p {
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+.img1-sobre {
+    width: 270px;
+    height: 400px;
+    background-image: url(img/pexels-kuiyibo-campos-14973952.jpg);
+    background-size: cover;
+}
+.img2-sobre {
+    width: 270px;
+    height: 400px;
+    background-image: url(img/pexels-andré-henrique-11191171.jpg);
+    background-size: cover;
+    margin-bottom: -4.5rem;
+    margin-left: 1.5rem;
+}
+
+.oferecemos-container {
+    width: 100vw;
+    height: 70vh;
+    background-color: #141414;
+}
+.title-oferecemos {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+} 
+.title-oferecemos h2 {
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #F9EF23;
+    font-size: 45px;
+}
+.title-oferecemos p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+.colum-img {
+    width: 75vw;
+    height: 40vh;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    transition: 1s;
+    filter: brightness(50%);
+    transition-property: brightness(50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover {
+    transition: 1s;
+    filter: brightness(85%);
+    transform: scale(1.1);
+}
+#box1 {
+    background-image: url(img/pexels-ivan-samkov-4164463.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box2 {
+    background-image: url(img/pexels-andrea-piacquadio-864990.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box3 {
+    background-image: url(img/pexels-annushka-ahuja-7991604.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 10px 10px 10px black;
+}
+
+.depoimentos {
+    width: 100vw;
+    height: 70vh;
+    background-color: #141414;
+}
+.title-depoimentos {
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-depoimentos h2 {
+    color: #F9EF23;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 400;
+}
+.colum-depoimentos {
+    width: 80vw;
+    height: 55%;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box-depoimentos {
+    width: 25%;
+    height: 100%;
+    background-color: #F9EF23;
+}
+#imgDepo1 {
+    width: 100%;
+    height: 50%;
+    background-image: url(img/people1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#imgDepo2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(img/people2.jpg);
+    background-size: cover;
+    background-position: right 35% bottom 90%;
+}
+#imgDepo3 {
+    width: 100%;
+    height: 50%;
+    background-image: url(img/pexels-georgina-arriaga-12549931.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box-depoimentos article {
+    box-sizing: border-box;
+    padding: 10px 25px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: #F9EF23;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 8rem;
+}
+.footer-info h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+}
+.footer-info p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 1px;
+    font-size: 15px;
+}
+
+
+@media (max-width: 450px) {
+    #header {
+        position: unset;
+        padding: 0 0.5rem;
+    }
+    .textandinput h2 {
+        text-align: center;
+    }
+    .textandinput input {
+        width: 47%;
+        height: 6vh;
+    }
+    #sobre {
+        width: 100vw;
+        height: 175vh;
+        background-color: #141414;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1rem 0rem;
+    }
+    .text-sobre {
+        width: 59%;
+        height: 30%;
+        margin-right: 9%;
+        margin-bottom: 7%;
+    }
+    .img2-sobre {
+        width: 270px;
+        height: 400px;
+        background-image: url(img/pexels-andré-henrique-11191171.jpg);
+        background-size: cover;
+        margin-top: 1.5rem;
+        margin-left: 4.5rem;
+    }
+    .img1-sobre {
+        width: 270px;
+        height: 400px;
+        background-image: url(img/pexels-kuiyibo-campos-14973952.jpg);
+        margin-right: 2rem;
+        background-size: cover;
+    }
+    .oferecemos-container {
+        width: 100vw;
+        height: 82vh;
+
+    }
+    .title-oferecemos p {
+        text-align: center;
+    }
+    .colum-img {
+        height: 71%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .box {
+        width: 100%;
+    }
+    .depoimentos{
+        height: 130vh;
+    }
+    .title-depoimentos {
+        text-align: center;
+    }
+    .colum-depoimentos {
+        width: 90vw;
+        height: 82%;
+        display: block;
+        margin: 1.5rem auto;
+    }
+    .box-depoimentos {
+        margin: 1rem auto;
+        width: 75%;
+        height: 32%;
+        background-color: #F9EF23;
+    }
+    footer {
+        width: 100vw;
+        min-height: 40vh;
+        background-color: #F9EF23;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        box-sizing: border-box;
+        padding: 1rem 8rem;
+    }
+    .footer-info{
+        width: 100%;
+    }
+}
